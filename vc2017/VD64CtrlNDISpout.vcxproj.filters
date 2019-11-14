@@ -1,0 +1,373 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{2DEF0534-B792-413F-8994-CAA30921F011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\ImGui">
+      <UniqueIdentifier>{E58EC8D7-6EFB-4548-BDE7-60C3A34856A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\ImGui\include">
+      <UniqueIdentifier>{B918DE38-F21C-4970-A9DA-1A274FFBD7C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\ImGui\lib">
+      <UniqueIdentifier>{1E5A52AB-4688-447F-AFAA-47E25996FAFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\ImGui\lib\imgui">
+      <UniqueIdentifier>{1C070325-CC2B-45A6-B80A-639D9F148049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\ImGui\src">
+      <UniqueIdentifier>{EF96C938-E88D-4FF7-B02C-AD9A2EEE8A16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Midi2">
+      <UniqueIdentifier>{DD475B5D-664A-4385-B2F3-40BF8EE148A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Midi2\include">
+      <UniqueIdentifier>{5AD87D23-2329-48A0-8874-A9520741447B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Midi2\lib">
+      <UniqueIdentifier>{69FC368E-4E57-4CD9-9DAB-ABA3A835562B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Midi2\src">
+      <UniqueIdentifier>{82CFDD31-13FE-49A0-8C85-F7AC03301436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-NDI">
+      <UniqueIdentifier>{3A146444-75DA-4991-99C0-CD80616D0AA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-NDI\src">
+      <UniqueIdentifier>{1BB4BD69-2C9D-4CA7-979D-649DB4008E78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-NDI\include">
+      <UniqueIdentifier>{1ABBC5CF-4C19-4CAD-A4CF-D5086B40BC80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-VD">
+      <UniqueIdentifier>{54881859-8EBE-4AC0-BB78-41D36E8D46AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-VD\include">
+      <UniqueIdentifier>{1B4022AB-08F2-494B-B7DC-66B341090728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-VD\src">
+      <UniqueIdentifier>{8F21FFC7-E593-4B92-83F0-E32DFF23AA08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-VDUI">
+      <UniqueIdentifier>{0A9D69D5-8F91-4B4E-ACBC-F3F7AE26E94B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-VDUI\include">
+      <UniqueIdentifier>{F10C5440-9A16-4F83-A929-D4695ABA15F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-VDUI\src">
+      <UniqueIdentifier>{2EF91993-0410-41C5-AE33-EA52B8A7ED08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebSocketPP">
+      <UniqueIdentifier>{AA354720-73CF-41CB-82C3-5FF2381A3DAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\Cinder-WebSocketPP\src">
+      <UniqueIdentifier>{DD93EF87-4BA0-4A57-88DC-9E0E0A0EBC52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC">
+      <UniqueIdentifier>{2CCD004D-0AA4-4C7E-97AE-7764C09EC139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC\src">
+      <UniqueIdentifier>{8C0E7CD0-2395-4CE4-A274-A8C01E2CD60C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC\src\cinder">
+      <UniqueIdentifier>{6C59CB30-9C4D-41BC-82CD-3D35203D8B25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OSC\src\cinder\osc">
+      <UniqueIdentifier>{65F6A92C-D5AA-47D9-86FE-B3875EB3C625}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\VD64CtrlNDISpoutApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClCompile Include="..\src\VD64CtrlNDISpoutApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-ImGui\include\CinderImGui.h">
+      <Filter>Blocks\ImGui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-ImGui\include\imgui_user.h">
+      <Filter>Blocks\ImGui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-ImGui\include\imgui_user.inl">
+      <Filter>Blocks\ImGui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imconfig.h">
+      <Filter>Blocks\ImGui\lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui.h">
+      <Filter>Blocks\ImGui\lib\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui_internal.h">
+      <Filter>Blocks\ImGui\lib\imgui</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\src\CinderImGui.cpp">
+      <Filter>Blocks\ImGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui.cpp">
+      <Filter>Blocks\ImGui\lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui_draw.cpp">
+      <Filter>Blocks\ImGui\lib\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-ImGui\lib\imgui\imgui_demo.cpp">
+      <Filter>Blocks\ImGui\lib\imgui</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiConstants.h">
+      <Filter>Blocks\Midi2\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiExceptions.h">
+      <Filter>Blocks\Midi2\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiHeaders.h">
+      <Filter>Blocks\Midi2\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiHub.h">
+      <Filter>Blocks\Midi2\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiIn.h">
+      <Filter>Blocks\Midi2\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiMessage.h">
+      <Filter>Blocks\Midi2\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\include\MidiOut.h">
+      <Filter>Blocks\Midi2\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\lib\RtError.h">
+      <Filter>Blocks\Midi2\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-MIDI2\lib\RtMidi.h">
+      <Filter>Blocks\Midi2\lib</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\src\MidiHub.cpp">
+      <Filter>Blocks\Midi2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\src\MidiIn.cpp">
+      <Filter>Blocks\Midi2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\src\MidiMessage.cpp">
+      <Filter>Blocks\Midi2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\src\MidiOut.cpp">
+      <Filter>Blocks\Midi2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-MIDI2\lib\RtMidi.cpp">
+      <Filter>Blocks\Midi2\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-NDI\src\CinderNDIReceiver.cpp">
+      <Filter>Blocks\Cinder-NDI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-NDI\src\CinderNDISender.cpp">
+      <Filter>Blocks\Cinder-NDI\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-NDI\include\CinderNDIReceiver.h">
+      <Filter>Blocks\Cinder-NDI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-NDI\include\CinderNDISender.h">
+      <Filter>Blocks\Cinder-NDI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VD\include\LiveParam.h">
+      <Filter>Blocks\Cinder-VD\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VD\include\VDAnimation.h">
+      <Filter>Blocks\Cinder-VD\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VD\include\VDFbo.h">
+      <Filter>Blocks\Cinder-VD\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VD\include\VDLog.h">
+      <Filter>Blocks\Cinder-VD\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VD\include\VDRouter.h">
+      <Filter>Blocks\Cinder-VD\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VD\include\VDSession.h">
+      <Filter>Blocks\Cinder-VD\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VD\include\VDSettings.h">
+      <Filter>Blocks\Cinder-VD\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VD\include\VDShader.h">
+      <Filter>Blocks\Cinder-VD\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VD\include\VDTexture.h">
+      <Filter>Blocks\Cinder-VD\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VD\include\VDUtils.h">
+      <Filter>Blocks\Cinder-VD\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VD\include\VDWebsocket.h">
+      <Filter>Blocks\Cinder-VD\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VD\include\Watchdog.h">
+      <Filter>Blocks\Cinder-VD\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VD\src\LiveParam.cpp">
+      <Filter>Blocks\Cinder-VD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VD\src\VDAnimation.cpp">
+      <Filter>Blocks\Cinder-VD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VD\src\VDFbo.cpp">
+      <Filter>Blocks\Cinder-VD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VD\src\VDLog.cpp">
+      <Filter>Blocks\Cinder-VD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VD\src\VDRouter.cpp">
+      <Filter>Blocks\Cinder-VD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VD\src\VDSession.cpp">
+      <Filter>Blocks\Cinder-VD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VD\src\VDSettings.cpp">
+      <Filter>Blocks\Cinder-VD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VD\src\VDShader.cpp">
+      <Filter>Blocks\Cinder-VD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VD\src\VDTexture.cpp">
+      <Filter>Blocks\Cinder-VD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VD\src\VDUtils.cpp">
+      <Filter>Blocks\Cinder-VD\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VD\src\VDWebsocket.cpp">
+      <Filter>Blocks\Cinder-VD\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDUI\include\VDUI.h">
+      <Filter>Blocks\Cinder-VDUI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDUI\include\VDUIAnimation.h">
+      <Filter>Blocks\Cinder-VDUI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDUI\include\VDUIAudio.h">
+      <Filter>Blocks\Cinder-VDUI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDUI\include\VDUIBlend.h">
+      <Filter>Blocks\Cinder-VDUI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDUI\include\VDUIColor.h">
+      <Filter>Blocks\Cinder-VDUI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDUI\include\VDUIFbos.h">
+      <Filter>Blocks\Cinder-VDUI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDUI\include\VDUIMidi.h">
+      <Filter>Blocks\Cinder-VDUI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDUI\include\VDUIMouse.h">
+      <Filter>Blocks\Cinder-VDUI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDUI\include\VDUIOsc.h">
+      <Filter>Blocks\Cinder-VDUI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDUI\include\VDUIRender.h">
+      <Filter>Blocks\Cinder-VDUI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDUI\include\VDUIShaders.h">
+      <Filter>Blocks\Cinder-VDUI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDUI\include\VDUITempo.h">
+      <Filter>Blocks\Cinder-VDUI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDUI\include\VDUITextures.h">
+      <Filter>Blocks\Cinder-VDUI\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-VDUI\include\VDUIWebsockets.h">
+      <Filter>Blocks\Cinder-VDUI\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDUI\src\VDUI.cpp">
+      <Filter>Blocks\Cinder-VDUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDUI\src\VDUIAnimation.cpp">
+      <Filter>Blocks\Cinder-VDUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDUI\src\VDUIAudio.cpp">
+      <Filter>Blocks\Cinder-VDUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDUI\src\VDUIBlend.cpp">
+      <Filter>Blocks\Cinder-VDUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDUI\src\VDUIColor.cpp">
+      <Filter>Blocks\Cinder-VDUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDUI\src\VDUIFbos.cpp">
+      <Filter>Blocks\Cinder-VDUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDUI\src\VDUIMidi.cpp">
+      <Filter>Blocks\Cinder-VDUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDUI\src\VDUIMouse.cpp">
+      <Filter>Blocks\Cinder-VDUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDUI\src\VDUIOsc.cpp">
+      <Filter>Blocks\Cinder-VDUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDUI\src\VDUIRender.cpp">
+      <Filter>Blocks\Cinder-VDUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDUI\src\VDUIShaders.cpp">
+      <Filter>Blocks\Cinder-VDUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDUI\src\VDUITempo.cpp">
+      <Filter>Blocks\Cinder-VDUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDUI\src\VDUITextures.cpp">
+      <Filter>Blocks\Cinder-VDUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-VDUI\src\VDUIWebsockets.cpp">
+      <Filter>Blocks\Cinder-VDUI\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketClient.cpp">
+      <Filter>Blocks\Cinder-WebSocketPP\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketConnection.cpp">
+      <Filter>Blocks\Cinder-WebSocketPP\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketServer.cpp">
+      <Filter>Blocks\Cinder-WebSocketPP\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketClient.h">
+      <Filter>Blocks\Cinder-WebSocketPP\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketConnection.h">
+      <Filter>Blocks\Cinder-WebSocketPP\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Cinder\blocks\Cinder-WebSocketPP\src\WebSocketServer.h">
+      <Filter>Blocks\Cinder-WebSocketPP\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\Cinder\blocks\OSC\src\cinder\osc\Osc.cpp">
+      <Filter>Blocks\OSC\src\cinder\osc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\Cinder\blocks\OSC\src\cinder\osc\Osc.h">
+      <Filter>Blocks\OSC\src\cinder\osc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
